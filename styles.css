@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/*Name: Reese Cox
+  Date: 7/12/22
+  Assignment: Cheech's Pizza Parlor*/
+body{
+  text-align: center;
+  background-color: #f7f29c;
+  font-family: futura;
+
+}
+
+/*blockquote{
+  background-color: green;
+}*/
+
+.column-layout{
+  display: flex;
+  padding: 25px 50px;
+}
+
+/*
+nav>ul{
+  width: 100%;
+  background-color: #e46f50;
+  overflow:auto;
+  list-style: none;
+  text-align: center;
+  display: inline-flex;
+}
+
+li{
+  display:flex;
+}
+
+nav a{
+
+
+  text-decoration: none;
+  font-family: futura;
+  color: white;
+  text-align: center;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-direction: row;
+}
+*/
+
+.bar{
+  display:flex;
+  background-color:#e46f50;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+}
+
+nav a{
+  text-decoration: none;
+  font-family: futura;
+  color: white;
+}
+
+.bar li{
+  display:inline-flex;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.Row{
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: space-around;
+}
+
+blockquote{
+  background-color: white;
+  border-style: solid;
+  border-width: 4px;
+  text-align: justify;
+  padding: 7px;
+}
+.twitter,.fb,.insta{
+  padding: 5px;
+}
+
+header img{
+  width:1700px;
+  height: 200px;
+}
+
+img.pizza{
+  height: 275px;
+  width: 275px;
+}
+.column{
+  padding:10px;
+}
+
+.info-column{
+  font-size: 1.75em;
+  text-align: left;
+  border-style: double;
+  border-width: 2px;
+  padding: 10px;
+}
+
+button{
+  color:white;
+  background-color: #e46f50;
+  font-family: futura;
+}
+
+h1.main{
+  display: none;
+}
+
+
+
+
+
+
+@media screen and (max-width: 568px) {
+  div{
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  img.logo1{
+    width: 100%;
+    display: none;
+  }
+
+  .bar li{
+    width: 100%;
+  }
+  h1.main{
+    display: contents;
+  }
+
+  
+
+}

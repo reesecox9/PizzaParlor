@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Name: Reese Cox
+      Date: 7/11/22
+      Assignment: Pizza Parlor -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Order | Cheech's Pizza Parlor</title>
+
+</head>
+<body>
+  <header>
+    <img class="logo1" src="logo.JPEG" alt="Cheech's Pizza Parlor Logo">
+    <h1 class="main">Cheech's Pizza Parlor</h1>
+
+    <nav class="bar">
+      <ul>
+        <li><a href="blank.html" target="blank">Home</a></li>
+        <li><a href="Order.html">Order Online</a></li>
+        <li><a href="Menu.html">Menu</a></li>
+        <li><a href="blank.html" target="blank">Our Location</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="column-layout">
+    <div class="info-column">
+      <form class="info" action="thankyou2.html" method="get">
+
+          <h2>Order Online:</h2>
+          <p>Please enter your contact info and the pizza you would like to eat!</p>
+
+          <label for="fname">
+            First name:
+            <input autofocus type="text" name="fname" id="fname" placeholder="First Name" required>
+          </label>
+          <br>
+          <label for="lname">
+            Last Name:
+            <input type="text" name="name" id="lname" placeholder="Last Name" required>
+          </label>
+          <br>
+          <label for="phone">
+            Phone:
+            <input  type="text" name="phone" id="phone" placeholder="xxx-xxx-xxxx" required>
+          </label>
+          <br>
+          <label for="pizza">
+            What kind of pizza would you like?
+            <select class="pizza" name="pizza" id="pizza">
+              <option value="Supreme">Supreme</option>
+              <option value="ItalianStalion">Italian Stalion</option>
+              <option value="MacNReese">Mac n' Reese</option>
+              <option value="Palermo">Palermo</option>
+              <option value="Alcamo">Alcamo</option>
+              <option value="Sicilian">Sicilian</option>
+            </select>
+          </label>
+          <label for="qty">
+            QTY:
+            <select class="qty" name="QTY" id="qty">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+
+            </select>
+          </label>
+          <button type="button" name="button">CONFIRM</button>
+
+      </form>
+    </div>
+
+    <div class="comment-column">
+      <blockquote class="review">
+
+        <h3>"The Mac n' Reese pizza was out of this world!</h3>
+          <h3> I will definitely be coming back with all of my friends! </h3>
+          <h3> I couldn't recommend it enough!"</h3>
+
+        <p><img src="star.png" alt="Review Star"><img src="star.png" alt="Review Star"><img src="star.png" alt="Review Star"><img src="star.png" alt="Review Star"><img src="star.png" alt="Review Star"></p>
+        <h5>-Tom Segura</h5>
+        <p>7-13-2022</p>
+      </blockquote>
+
+      <p>Our Social Media Cites</p>
+      <p><img class="fb" src="facebook.png" alt="Facebook Icon"><img class="twitter" src="insta.png" alt="Insatagram icon"><img class="insta" src="twitter.png" alt="Twitter Icon"></p>
+
+    </div>
+
+
+
+
+  </div>
+</body>
+</html>
