@@ -9,41 +9,10 @@ body{
 
 }
 
-/*blockquote{
-  background-color: green;
-}*/
-
 .column-layout{
   display: flex;
   padding: 25px 50px;
 }
-
-/*
-nav>ul{
-  width: 100%;
-  background-color: #e46f50;
-  overflow:auto;
-  list-style: none;
-  text-align: center;
-  display: inline-flex;
-}
-
-li{
-  display:flex;
-}
-
-nav a{
-
-
-  text-decoration: none;
-  font-family: futura;
-  color: white;
-  text-align: center;
-  justify-content: flex-start;
-  align-items: baseline;
-  flex-direction: row;
-}
-*/
 
 .bar{
   display:flex;
@@ -135,7 +104,4 @@ h1.main{
   h1.main{
     display: contents;
   }
-
-  
-
 }
